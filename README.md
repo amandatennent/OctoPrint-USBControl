@@ -113,6 +113,9 @@ X-Api-Key: abcdef...
 Values for arg4 are "on" and "off"
 
 ## Update 1.0.8
+Update to support additional RPi4 revisions [Raspberry Pi Hardware - Raspberry Pi Revision Codes](https://www.raspberrypi.org/documentation/computers/raspberry-pi.html#raspberry-pi-revision-codes)
+
+## Update 1.0.8
 Update to support RPi4
 
 ## Update 1.0.7

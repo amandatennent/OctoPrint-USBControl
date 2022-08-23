@@ -127,9 +127,13 @@ class UsbcontrolPlugin(octoprint.plugin.SettingsPlugin,
 			'a03111': 'Raspi4B',
 			'b03111': 'Raspi4B',
 			'b03112': 'Raspi4B',
+			'b03114': 'Raspi4B',
+			'b03115': 'Raspi4B',
 			'c03111': 'Raspi4B',
 			'c03112': 'Raspi4B',
+			'c03114': 'Raspi4B',
 			'd03114': 'Raspi4B',
+			'd03115': 'Raspi4B',
 			'9000c1': 'ZeroW',
 			'9000C1': 'ZeroW',
 			'900092': 'Zero',
@@ -164,4 +168,3 @@ def __plugin_load__():
 	__plugin_hooks__ = {
 		"octoprint.plugin.softwareupdate.check_config": __plugin_implementation__.get_update_information
 	}
-
